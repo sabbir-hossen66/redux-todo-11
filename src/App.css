@@ -50,8 +50,8 @@ article {
   padding: 0.5re;
 }
 
-@media  (min-width:600px) {
-  section{
+@media (min-width:600px) {
+  section {
     grid-template-columns: auto auto;
 
   }
