@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+section {
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+
+article {
+  background-color: lawngreen;
+  color: black;
+  padding: 0.5re;
+}
+
+@media  (min-width:600px) {
+  section{
+    grid-template-columns: auto auto;
+
   }
 }
